@@ -12,6 +12,10 @@ public class UserDto {
         this.email = email;
     }
 
+    public UserDto() {
+
+    }
+
     public Long getId() {
         return id;
     }

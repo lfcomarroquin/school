@@ -23,6 +23,10 @@ public class UserEntity {
         this.email = email;
     }
 
+    public UserEntity() {
+
+    }
+
     public Long getId() {
         return id;
     }
